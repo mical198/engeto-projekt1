@@ -1,0 +1,306 @@
+
+body {
+    font-family: 'Roboto';
+
+} 
+
+/* navigation */
+
+.navigace {
+    position: absolute;
+    width: 1440px;
+    height: 67px;
+    background: #3A2E2F;
+    margin: 0px auto;
+    
+}
+
+.navigace ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navigace ul li {
+    
+    padding: 5px 90px;
+    margin: 0px auto;
+}
+
+.navigace ul a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+
+
+
+/* hero section */
+
+.heroimg {
+    width: 1440px;
+    height: 804px;
+    left: 0px;
+    top: 0px;
+}
+
+.nadpis1 {
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: right;
+}
+
+
+/*about us */
+
+.o-nas {
+    margin-top: rem;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+.o-nas > img {
+    margin-top: 10rem;
+    margin-right: 10rem;
+    padding: 0;
+    width: 50%;
+    height: 310px;
+    
+    
+}
+
+.o-nas> article {
+    padding: 8rem;
+    margin: 2rem;
+}
+
+.o-nas> article >h2 {
+    font-size: 32px;
+}
+
+
+
+
+/* what we do */
+
+.whatdo {
+    background-color: #33292A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+}
+
+.whatdo p {
+    margin: 0rem 15rem;
+    
+}
+
+.whatdo img {
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+#hory {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    position:absolute;
+    padding-left: 10px;
+}
+
+#kolo { 
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    position:absolute;
+    padding-left: 282px;
+    padding-bottom: 40px;
+}
+
+#surf  {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    position:absolute;
+    padding-left: 564px;
+    padding-bottom: 40px;
+}
+
+#auto {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    position:absolute;
+    padding-left: 830px;
+    padding-bottom: 40px;
+}
+
+
+/* our trips */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+ 
+    padding-top: 140px;
+    padding-bottom: 140px;
+    
+}
+
+.item {
+    width: 272px;
+    height: 222px;
+    flex-basis: calc(100% / 3 - 20px / 3 );
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.item >h2 {
+    color: black;
+}
+
+
+/* contact us */
+
+.contact {
+    background-color: #644B4F;
+}
+
+.contact-us {
+    display: flex;
+    padding: 3rem;
+}
+
+.contact-us > h2 {
+    
+    padding-left: 18rem;
+    width: 272px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+}
+
+.contact-us > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+
+.bt {
+    margin-left: 38rem;
+    margin-bottom: 3rem;
+    background-color:  #F2F2F2;;
+    padding: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+    
+/* reviews */
+ 
+.review >h2 {
+    color: black;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.review > p {
+    text-align: center;
+}
+
+.profil {
+    text-align: center;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.profilimg1 {
+    border-radius: 50px;
+}
+
+.profilimg2 {
+    border-radius: 50px;
+}
+
+/* last section */
+
+.last-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+
+h2 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+}
+
+
+/* footer */
+
+.patka {
+    text-align: center;
+    background-color: #644b4f;
+}
+
+.patka >p {
+    color: white;
+    padding-bottom: 3rem;
+} 
+ 
+.kontakt {
+    color: black;
+
+}
+
+/* zarovnani stranky na stred */
+.resolution {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}      
+
+ /* Styly pro mobilní telefony */
+
+ @media only screen and (max-width: 600px) {
+
+    /* Přizpůsobení velikosti textu */
+    body {
+        font-size: 14px;
+    }
+    
+    /* Přizpůsobení šířky obrázků */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
